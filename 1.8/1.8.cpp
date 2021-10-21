@@ -5,9 +5,24 @@
 
 using namespace std;
 
+int numberAddition(int number1, int number2) //Does the addition
+{
+    return number1 + number2;
+}
+
 int main()
 {
-    cout << "Hello World!\n";
+    int firstnumber; int secondnumber; //Initialize variables
+
+    cout << "Enter number 1:\n"; //Get numbers
+    cin >> firstnumber;
+
+    cout << "Enter number 2:\n";
+    cin >> secondnumber;
+
+    firstnumber = numberAddition(firstnumber, secondnumber); //Call function
+
+    cout << firstnumber << endl; //Prints result
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
