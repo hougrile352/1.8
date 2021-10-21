@@ -1,4 +1,4 @@
-// 1.8 second part.cpp : This file contains the 'main' function. Program execution begins and ends there.
+// 1.8 part 3.cpp : This file contains the 'main' function. Program execution begins and ends there.
 //
 
 #include <iostream>
